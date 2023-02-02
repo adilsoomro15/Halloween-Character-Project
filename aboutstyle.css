@@ -1,0 +1,15 @@
+.darken{
+  animation: darken 1s ease both;
+}
+
+@keyframes darken{
+  from{ background-color: white; color: #666;}
+  to{ background-color: black; color: #000;}
+}
+
+.jumpscare{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
